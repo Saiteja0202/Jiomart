@@ -1,0 +1,188 @@
+* {
+    
+    font-family:Arial;
+    border:border-box;
+}
+.navbar {
+    background-color: #1a79bd;
+    background-size: cover;
+    height:72px;
+    display: flex;
+    align-items:center;
+    width:100%;
+    justify-content:space-evenly;
+}
+.nav-search {
+    background-color: white;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+}
+.signin {
+    display:flex;
+    align-items:center;
+    width:10%;
+}
+.address {
+    display:flex;
+    width:20%;
+    margin-top:20px;
+
+}
+.panel {
+    background-color: #07546b;
+    display:flex;
+    align-items:center;
+    font-size:13px;
+    color:white;
+    height:40px;
+    justify-content:space-evenly;
+    font-weight:bold;
+}
+.nextpages {
+    background-color:white;
+    background-size: cover;
+    height:72px;
+    display: flex;
+    align-items:center;
+    width:100%;
+    margin-left:80px;
+}
+.Filtersblock{
+    margin:50px;
+    background-size: cover;
+    width:23%;
+    height:800px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 30px;
+}
+.Overallblock {
+    margin:50px;
+    background-size: cover;
+    width:70%;
+    height:1000px;
+}
+.Content{
+    background-color: white;
+    background-size: cover;
+    height:1000px;
+    display: flex;
+}
+.Topdeals {
+    height:280px;
+    width:100%;
+    background-color: white;
+    background-size: cover;
+}
+.Products {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.end {
+    display:flex;
+    justify-content: space-evenly;
+    height:59vh;
+    background-color: white;
+    background-size: cover;
+}
+.orderlist {
+    list-style-type: none;
+}
+.appicons {
+    display:flex;
+}
+
+.nextimage {
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+}
+.nextmain {
+    margin:20px;
+    border-radius: 20px;
+}
+.bars {
+    display: flex;
+}
+
+.bar {
+    margin-top: 7px;
+    border-radius: 3px;
+    background-color: orange;
+    background-size: cover;
+    height:12px;
+    width:150px;
+}
+
+.barr {
+    margin-top: 7px;
+    border-radius: 3px;
+    background-color:lightgrey;
+    background-size: cover;
+    height:12px;
+    width:150px;
+}
+.signincard {
+    background-color: white;
+    background-size: cover;
+    height:75vh;
+}
+
+.cartbars {
+    background-color: lightgray;
+    background-size: cover;
+    height:40px;
+    width:1200px;
+    border-radius: 20px;
+}
+
+.dropdown-menu {
+    height: 420px;
+    width: 550px;
+}
+
+.address-card {
+    margin: 20px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    background-size: cover;
+    margin-left: 40px;
+}
+:hover.address-card {
+    border-color:black;
+    box-shadow: inset;
+}
+
+.deliver-location{
+    margin-left: 40px;
+    width:180px;
+    height:30px;
+    border-radius: 10px;
+
+}
+.deliver-detect {
+    margin-left: 40px;
+    width:250px;
+    height:30px;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+
+:hover.deliver-detect {
+    background-color: #9fcff1;
+
+}
+:hover.deliver-location{
+    background-color: #9fcff1;
+}

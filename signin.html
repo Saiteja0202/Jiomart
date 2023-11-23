@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign In</title>
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/en/5/54/JioMart_logo.svg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="jiomart.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</head>
+  <body>
+  <div>
+    <div>
+      <div>
+        <nav class="navbar navbars fixed-top">
+          <a href="jiomart.html"><img src="https://www.jiomart.com/assets/ds2web/images/jiomart_beta_logo.svg" style="width:125px;height:20px;margin-left: 150px;"></a>
+            <div class="address" style="margin-left: 75px;">
+                <i class="fa-solid fa-location-dot" style="color: #f7f9fd;"></i>
+                <p style="color:white;font-size:14px;margin-left:10px;">Deliver to</p>
+                <p style="color:white;font-size:14px;font-weight:bold;margin-left:10px;">Vizag 530012</p>
+            </div>
+            <div class="nav-search">
+                <i class="fa-solid fa-magnifying-glass" style="margin:10px;"></i>
+                <input placeholder="Search JioMart" style="margin:10px;border-width: 0;font-size:15px;"></input>
+                <img src="https://www.jiomart.com/assets/ds2web/jds-icons/list-icon.svg" style="margin:10px;">
+            </div>
+            <div class="cart" style="margin-left: 100px;"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;font-size:25px;"></i></div>
+        <div class="signin" style="margin-left: 100px;">
+            <i class="fa-solid fa-user" style="color: #ffffff;margin:10px;"></i>
+            <p style="font-size:20px;font-weight:bold;color:white;margin-top:17px;">Sign In</p>
+        </div>
+            <div class="container" style="width:10px">
+              <a class="navbar-brand" href="#"></a>
+              </div>
+              <button class="navbar-toggler btn bg-light" style="margin-right: 75px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header" style="background-color:   #1a79bd;height:72px;color:white;">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div style="display:flex;text-align:center;">
+                    <i class="fa-solid fa-house" style="color: #7ea6ec;margin-left: 30px;font-size:25px;"></i>
+                    <p style="margin-left: 13px;margin-top: 3px;font-weight:bold;">Home</p>
+                  </div>
+                  <div style="width:90%; border-top: 1px  black;margin-left: 10px;margin-right: 10px;margin-top: 10px;">
+                    <hr>
+                  </div> 
+                  <div style="display:flex;text-align:center;">
+                    <i class="fa-solid fa-heart" style="color: #7ea6ec;margin-left: 30px;font-size:25px;"></i>
+                    <p style="margin-left: 13px;margin-top: 3px;font-weight:bold;">Wish List</p>
+                  </div>
+                  <div style="width:90%; border-top: 1px  black;margin-left: 10px;margin-right: 10px;margin-top: 10px;">
+                    <hr>
+                  </div> 
+                  <div style="display:flex;text-align:center;">
+                    <i class="fa-solid fa-wallet" style="color: #7ea6ec;margin-left: 30px;font-size:25px;"></i>
+                    <p style="margin-left: 13px;margin-top: 3px;font-weight:bold;">JioMart Wallet</p>
+                  </div>
+                  <div style="width:90%; border-top: 1px  black;margin-left: 10px;margin-right: 10px;margin-top: 10px;">
+                    <hr>
+                  </div> 
+                  <div style="display:flex;text-align:center;">
+                    <i class="fa-solid fa-list" style="color: #7ea6ec;margin-left: 30px;font-size:25px;"></i>
+                    <p style="margin-left: 13px;margin-top: 3px;font-weight:bold;">My List</p>
+                  </div>
+                  <div style="width:90%; border-top: 1px  black;margin-left: 10px;margin-right: 10px;margin-top: 10px;">
+                    <hr>
+                  </div> 
+                  <div style="display:flex;text-align:center;">
+                    <i class="fa-solid fa-gift" style="color: #7ea6ec;margin-left: 30px;font-size:25px;"></i>
+                    <p style="margin-left: 13px;margin-top: 3px;font-weight:bold;">Gift Store</p>
+                  </div>
+                  <div style="width:90%; border-top: 1px  black;margin-left: 10px;margin-right: 10px;margin-top: 10px;">
+                    <hr>
+                  </div> 
+                  <div style="display:flex;text-align:center;">
+                    <i class="fa-solid fa-tags" style="color: #7ea6ec;margin-left: 30px;font-size:25px;"></i>
+                    <p style="margin-left: 13px;margin-top: 3px;font-weight:bold;">Offer Store</p>
+                  </div>
+                  <div style="width:90%; border-top: 1px  black;margin-left: 10px;margin-right: 10px;margin-top: 10px;">
+                    <hr>
+                  </div> 
+                  <div style="display:flex;text-align:center;">
+                    <i class="fa-solid fa-phone" style="color: #7ea6ec;margin-left: 30px;font-size:25px;"></i>
+                    <p style="margin-left: 13px;margin-top: 3px;font-weight:bold;">Contact Us</p>
+                  </div>
+                  <div style="width:90%; border-top: 1px  black;margin-left: 10px;margin-right: 10px;margin-top: 10px;">
+                    <hr>
+                  </div> 
+                  <p style="margin-left: 20px;font-weight: bold;">Download the App</p>
+                  <div style="display: flex;text-align: center;margin-left: 20px;">
+                    <img src="https://www.jiomart.com/assets/ds2web/jds-icons/google-play-icon.svg">
+                    <img src="https://www.jiomart.com/assets/ds2web/jds-icons/ios_app_icon.svg">
+                  </div>
+                </div>
+          
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </div>
+    
+          </nav>
+    </div>
+      <br>
+      <br>
+      <br>
+      
+      <div id="sectionHomeSection">
+        <div class="panel fixed">
+            <div>  </div>
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#07546b ;font-size:13px;color:white;font-weight:bold;">
+                Groceriess
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+                <div class="dropdown">
+                  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#07546b ;font-size:13px;color:white;font-weight:bold;">
+                    Premium Fruits
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#07546b ;font-size:13px;color:white;font-weight:bold;">
+                    Home & Kitchen
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#07546b ;font-size:13px;color:white;font-weight:bold;">
+                    Fashion
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#07546b ;font-size:13px;color:white;font-weight:bold;">
+                    Electronics
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#07546b ;font-size:13px;color:white;font-weight:bold;">
+                    Beauty
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#07546b ;font-size:13px;color:white;font-weight:bold;">
+                    Home Improvement
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#07546b ;font-size:13px;color:white;font-weight:bold;">
+                    Sports,Toys & Luggage
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+          </div>
+          <div class="d-flex flex-row">
+            <div class="d-flex justify-content-start" style="margin-left: 150px;margin-top: 50px;">
+                <img src="https://www.jiomart.com/images/cms/wysiwyg/cms/1677147547_pp.png" style="height:600px;width:700px;">
+            </div>
+            <div class="signincard d-flex flex-column m-auto shadow " style="padding:50px;border-radius: 20px;">
+                <p style="font-size: 35px;font-weight: bold;">Sign in to JioMart</p>
+                <p style="font-size: 15px;">to access your Addresses, Orders & Wishlist.</p>
+                <label id="number">+91 <input type="text" style="border-style: none;" from="number"></label>
+                <hr>
+                <div  style="margin-top: 200px; margin-left: 25px;margin-bottom: 10px;">
+                    <button style="border-color:#0078AD ;color:white;background-color: #0078AD;padding:10px;border-radius: 20px;padding-left: 100px;padding-right: 100px;">Get OTP</button>
+                </div>
+                <br>
+                <p style="font-size: 13px;">By continuing, you agree to our <a href="https://www.jiomart.com/terms-and-conditions" style="text-decoration: none;">Terms of Services</a><br> and <a href="https://www.jiomart.com/privacy-policy" style="text-decoration: none;">Privacy & Legal Policy</a></p>
+            </div>
+          </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src="jiomart.js"></script>
+</body>
+</html>
